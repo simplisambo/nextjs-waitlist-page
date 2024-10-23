@@ -47,7 +47,7 @@ export default function EmailForm() {
             pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
             id="email-address"
             name="email"
-            placeholder="johndoe@example.com"
+            placeholder="johndoe@gmail.com"
             required
             type="email"
             value={email}
@@ -57,7 +57,7 @@ export default function EmailForm() {
             className="flex h-10 shrink-0 items-center justify-center gap-1 rounded-lg bg-[#000F2D] px-4 py-2 text-sm font-semibold text-white transition-all hover:bg-zinc-700"
             type="submit"
           >
-            <span>Join the waitlist</span>
+            <span>Get updates</span>
           </button>
         </div>
       </form>
@@ -65,7 +65,7 @@ export default function EmailForm() {
       <div className="flex items-start gap-2 text-gray-500">
         <InfoCircledIcon />
         <p className="text-xs -mt-[0.5] max-w-sm">
-          No worries! your data is completely safe and will only be utilized to
+          Your data will only be utilized to
           provide you with updates about our product.
         </p>
       </div>
